@@ -1,0 +1,153 @@
+/*------TARGETING TAGS------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+div {
+  background-color: white;
+}
+h1 {
+  color: #678983;
+  margin-top: 0;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #678983;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #181D31;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+a {
+  color: #181D31;
+}
+
+/*------TARGETING CLASSES------*/
+.top-container {
+  background-color: #F0E9D2;
+  padding-top: 200px;
+  height: 700px;
+  margin-bottom: 50px;
+}
+.wind {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  transform: rotate(30deg);
+  width: 200px;
+
+}
+.heading {
+  margin-bottom: 0;
+  position: relative;
+  top: 100px;
+}
+.heading-comment {
+  margin-top: 10px;
+  position: relative;
+  top: 100px;
+}
+.pro {
+  text-decoration: underline;
+}
+.flock-of-birds {
+  position: absolute;
+  top: 310px;
+  left: 900px;
+}
+.anime {
+  position: absolute;
+  top: 410px;
+  right: 850px
+}
+.cloud1 {
+  position: absolute;
+  top: 450px;
+  left: 550px;
+}
+.cloud2 {
+  position: absolute;
+  right: 550px;
+  top: 300px;
+}
+.mountain {
+  position: relative;
+  bottom: -111px;
+}
+.profil-bilde {
+  border-radius: 100%;
+  width: 15%;
+  margin-top: 50px;
+}
+.hr {
+  color: #678983;
+  font-family: cursive;
+  font-size: 6rem;
+  opacity: 0.6;
+  margin: 0 auto;
+}
+.sport-car {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+  margin-top: -70px;
+  margin-bottom: -150px;
+}
+.machine-learning {
+  float: left;
+  margin-right: 30px;
+}
+.skills-h2 {
+  margin: 70px auto;
+}
+.skills-bil-h3 {
+margin-top: 200px;
+}
+.skill-row {
+  width: 50%;
+  margin: auto auto 50px;
+  text-align: left;
+  line-height: 2;
+}
+.kontakt {
+  margin-top: 70px;
+}
+.kontakt-p2 {
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+.bottom-container {
+  margin-top: 30px;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #181D31;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
